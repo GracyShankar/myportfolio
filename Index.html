@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="header">
+    <div class="logo">GS</div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">☰</div>
+    </nav>
+  </header>
+
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Gracy Sahai</h1>
+      <p>Frontend Developer / Cyber Security</p>
+      <a href="#contact" class="cta-button">Get in Touch</a>
+    </div>
+  </section>
+
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <img src="1000069313.jpg" alt="Profile Photo">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hi, I’m Gracy, a frontend enthusiast with a B.Tech in Cyber Security from Galgotias University. I love crafting clean, responsive interfaces using React.js, HTML, CSS, and JavaScript—always keeping security top of mind. 
+      I thrive on creative challenges and teamwork.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-cards" id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="download.jpeg" alt="Project 1">
+        <div class="project-info">
+          <h3>Decentralised Voting System Using BlockChain</h3>
+          <a href="https://github.com/GracyShankar/Decentralised-voting-system">View Project</a>
+          <p>A decentralized voting system using blockchain technology enhances election integrity by recording votes on an immutable, transparent, and distributed ledger...</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images (1).jpeg" alt="Project 2">
+        <div class="project-info">
+          <h3>Hand Gesture-Based Volume Control System</h3>
+          <a href="https://github.com/GracyShankar/Hand-Gesture-Based-Volume-Control-System">View Project</a>
+          <p>A hand gesture-based volume control system uses computer vision to detect and interpret hand movements, allowing users to adjust audio volume without physical contact...</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images.jpeg" alt="Project 3">
+        <div class="project-info">
+          <h3>Blood Bank Management System</h3>
+          <a href="https://github.com/GracyShankar/Blood-Bank">View Project</a>
+          <p>A Blood Bank Management System is a software solution designed to efficiently manage blood donations, inventory, donor records, and requests...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="contact">
+    <h2>Let's Connect</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <span class="error" id="name-error">Please enter your name</span>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email" required>
+        <span class="error" id="email-error">Please enter a valid email</span>
+      </div>
+      <div class="form-group">
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <span class="error" id="message-error">Please enter a message</span>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/gracy-sahai-9b002b266/">LinkedIn</a>
+      <a href="https://github.com/GracyShankar">GitHub</a>
+    </div>
+    <p>© 2025 Gracy Sahai. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
